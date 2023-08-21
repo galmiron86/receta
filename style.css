@@ -1,6 +1,6 @@
 .fondo-titulo {
   background-color: orange;
-  text-align: center;
+  text-align: left;
   padding: 1px;
   width: 100%;
   color: black;
@@ -17,15 +17,28 @@
   text-align: center;
   padding: 5px;
   width: 100%;
-} 
+}
 
 .titulo-naranja-sucursal {
   background-color: orange;
   text-decoration: none;
 }
 .titulo-receta {
-    text-align: center;
+  text-align: center;
 }
-a  {
+a {
   text-decoration: none;
+}
+p {
+  font-weight: bold;
+}
+
+footer {
+  background-color: orange;
+  padding: 2px;
+  text-align: center;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  color: black;
 }
