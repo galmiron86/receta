@@ -1,9 +1,10 @@
 .fondo-titulo {
   background-color: orange;
   text-align: left;
-  padding: 1px;
   width: 100%;
   color: black;
+  left: 0%;
+  word-spacing: 3px;
 }
 
 .fondo-sucursales {
@@ -17,11 +18,14 @@
   text-align: center;
   padding: 5px;
   width: 100%;
+  left: 0%;
 }
 
 .titulo-naranja-sucursal {
   background-color: orange;
   text-decoration: none;
+  bottom: 0px;
+  
 }
 .titulo-receta {
   text-align: center;
@@ -34,11 +38,14 @@ p {
 }
 
 footer {
-  background-color: orange;
-  padding: 2px;
-  text-align: center;
-  bottom: 0px;
-  position: absolute;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  color: black;
+  text-align: center;
+  padding: 10px;
+  background-color: orange;left: 0%;
+}
+
+.imagen-curva {
+  border-radius: 10%;
 }
