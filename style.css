@@ -29,3 +29,19 @@
 a  {
   text-decoration: none;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 2px;
+  background-color: orange;
+  
+}
+
+.imagen-curva {
+ 
+  border-radius: 10%;
+  text-align: center;
+}
