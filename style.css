@@ -1,6 +1,6 @@
 .fondo-titulo {
   background-color: orange;
-  text-align: left;
+  text-align: center;
   width: 100%;
   color: black;
   left: 0%;
@@ -33,27 +33,23 @@
 a {
   text-decoration: none;
 }
-<<<<<<< HEAD
 p {
   font-weight: bold;
 }
-=======
->>>>>>> e32b67282d6845bbb0f0bcf43a02d970f1bcd559
 
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
-<<<<<<< HEAD
-  padding: 10px;
-  background-color: orange;left: 0%;
+  padding: 0%x;
+  background-color: orange;
+  background-size: auto;
 }
 
 .imagen-curva {
   border-radius: 10%;
 }
-=======
   padding: 2px;
   background-color: orange;
   
@@ -64,4 +60,4 @@ footer {
   border-radius: 10%;
   text-align: center;
 }
->>>>>>> e32b67282d6845bbb0f0bcf43a02d970f1bcd559
+
