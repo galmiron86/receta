@@ -1,0 +1,31 @@
+.fondo-titulo {
+  background-color: orange;
+  text-align: center;
+  padding: 1px;
+  width: 100%;
+  color: black;
+}
+
+.fondo-sucursales {
+  background-color: orange;
+  text-align: left;
+  padding: 1px;
+  width: 100%;
+  color: black;
+}
+.titulo-sucursales {
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+} 
+
+.titulo-naranja-sucursal {
+  background-color: orange;
+  text-decoration: none;
+}
+.titulo-receta {
+    text-align: center;
+}
+a  {
+  text-decoration: none;
+}
