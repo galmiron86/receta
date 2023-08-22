@@ -1,15 +1,15 @@
 .fondo-titulo {
-  background-color: orange;
+  background-color: rgb(3, 2, 1);
   text-align: center;
   width: 100%;
-  color: black;
+  color: white;
   left: 0%;
   word-spacing: 3px;
   left: 0%;
 }
 
 .fondo-sucursales {
-  background-color: orange;
+  background-color: rgb(3, 2, 1);
   text-align: left;
   width: 100%;
   color: black;
@@ -23,10 +23,11 @@
 }
 
 .titulo-naranja-sucursal {
-  background-color: orange;
+  background-color: rgb(3, 2, 1);
   text-decoration: none;
   bottom: 0px;
   left: 0%;
+  color: white;
 }
 .titulo-receta {
   text-align: center;
@@ -73,9 +74,12 @@ footer {
     height: 200px;
     border-radius: 10%;
   }
-  .boton {
+  .receta {
     bottom: 2px;
     background-color: orange;
     margin-bottom: 2px;
   }
- 
+ .contenedor {
+  background-color: brown;
+  color: white;
+ }
