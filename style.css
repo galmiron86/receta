@@ -56,9 +56,9 @@ footer {
 
 .imagen-curva {
   border-radius: 10%;
-  padding: 2px;
+  padding: 5px;
   background-color: rgb(3, 2, 1);
-  width: 300px;
+  width: 500px;
   align-content: center;
   color: white;
 }
@@ -88,4 +88,8 @@ footer {
   border-radius: 5px;
   margin-top: 5px;
   margin: 3px;
+ }
+
+ .pc {
+  text-align: center;
  }
