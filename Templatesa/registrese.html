@@ -1,31 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Cookie&family=Gemunu+Libre:wght@300&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
-    <title>Recetas online</title>
-  </head>
-  <body>
-    <main>
-      <div class="titulo-naranja-sucursal">
-        <nav class="fondo-sucursales">
-          <a href="../index.html" class="contenedor">Home</a>
-          <a href="acercade.html"class="contenedor">Acerca de</a>
-          <a href="contacto.html"class="contenedor">Contacto</a>
-          <a href="Registrese.html"class="contenedor">Registrese</a>
-          <a href="Sucursales.html"class="contenedor">Sucursales</a>
-      
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barriecito&family=Cookie&family=Gemunu+Libre:wght@300&family=Roboto:ital,wght@1,500&display=swap"
+    rel="stylesheet">
+  <title>Recetas online</title>
+</head>
+
+<body>
+  <main>
+    <div class="titulo-naranja-sucursal">
+      <nav class="fondo-sucursales">
+        <a href="../index.html" class="contenedor">Home</a>
+        <a href="acercade.html" class="contenedor">Acerca de</a>
+        <a href="contacto.html" class="contenedor">Contacto</a>
+        <a href="Registrese.html" class="contenedor">Registrese</a>
+        <a href="Sucursales.html" class="contenedor">Sucursales</a>
+
       </nav>
-        <!-- Contenido -->
-       
-          <b><h1 class="titulo-receta">Registro</h1></b>
-       
-      </div>
-    </main>
-    <footer>
-      <p>Derechos reservados @2023</p>
-   </footer>
-  </body>
+      <!-- Contenido -->
+
+
+      <h1 class="titulo-receta">Registro</h1>
+
+    </div>
+
+    <form action="formulario" method="post">
+
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" name="apellido" required>
+
+      <br><br>
+
+      <p>Direccion</p>
+
+      <label for="calle">Calle</label>
+      <input type="text" id="calle" name="calle" placeholder="Ingrese su calle aqui" required>
+
+      <label for="numero">Numero</label>
+      <input type="text" id="numero" name="numero" placeholder="Ingrese su numero aqui" required>
+
+      <label for="ciudad">Ciudad</label>
+      <input type="text" id="ciudad" name="ciudad" placeholder="C.A.B.A" required>
+
+      <label for="codigo-postal">Codigo Postal</label>
+      <input type="text" id="codigo-postal" name="codigo-postal" placeholder="Ingrese su codigo postal" required><br><br>
+
+      <label for="telefono">Telefono</label>
+      <input type="text" id="telefono" name="telefono" placeholder="Ingrese su telefono aqui" required>
+
+      <label for="fecha-nac">Fecha Nac</label>
+      <input type="date" id="fecha-nac" name="fecha-nac" required>
+
+      <label for="mail">Mail</label>
+      <input type="text" id="mail" name="mail" required>
+
+      <label for="clave">Clave</label>
+      <input type="password" id="clave" name="clave" required>
+
+      <label for="linktp">Link del TP 3</label>
+      <input type="file" id="linktp" name="linktp" required>
+      <br><br><br>
+
+      
+
+      Genero radio()<input type="radio" id="hombre" name="genero" value="hombre">
+      <label for="hombre">Hombre</label>
+
+      <input type="radio" id="mujer" name="genero" value="mujer">
+      <label for="mujer">Mujer</label>
+
+      <input type="radio" id="otro" name="genero" value="otro">
+      <label for="otro">Otro</label><br><br>
+
+      Conocimientos Previos (checkbox) <input type="checkbox" id="html" name="html" value="html">
+      <label for="html">HTML</label>
+
+      <input type="checkbox" id="css" name="css" value="css">
+      <label for="css">Css</label>
+
+      <input type="checkbox" id="bootstrap" name="bootstrap" value="bootstrap">
+      <label for="bootstrap">Bootstrap</label>
+
+      <input type="checkbox" id="javascript" name="javascript" value="javascript">
+      <label for="javascript">Javascript</label>
+
+      <input type="checkbox" id="typescript" name="typescript" value="typescript">
+      <label for="typescript">Typescript</label>
+
+      <input type="checkbox" id="angular" name="angular" value="angular">
+      <label for="angular">Angular</label>
+
+      <input type="checkbox" id="base de datos" name="base de datos" value="base de datos">
+      <label for="base de datos">Base de datos</label>
+
+      <input type="checkbox" id="python" name="python" value="python">
+      <label for="python">Python</label>
+
+      <input type="checkbox" id="django" name="django" value="django">
+      <label for="django">Django</label><br><br>
+
+
+      <br>
+      <input type="submit" value="Enviar">
+
+
+
+    </form>
+
+
+  </main>
+  <footer>
+    <p>Derechos reservados @2023</p>
+  </footer>
+</body>
+
 </html>

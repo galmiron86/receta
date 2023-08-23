@@ -12,7 +12,7 @@
   background-color: rgb(3, 2, 1);
   text-align: left;
   width: 100%;
-  color: black;
+  color: white;
   left: 0%;
 }
 .titulo-sucursales {
@@ -45,20 +45,22 @@ footer {
   width: 100%;
   text-align: center;
   padding: 1px;
-  background-color: orange;
+  background-color: rgb(3, 2, 1);
   left: 0%;
   font-family: "Barriecito", cursive;
   font-family: "Cookie", cursive;
   font-family: "Gemunu Libre", sans-serif;
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .imagen-curva {
   border-radius: 10%;
   padding: 2px;
-  background-color: orange;
+  background-color: rgb(3, 2, 1);
   width: 300px;
   align-content: center;
+  color: white;
 }
   /* Estilos para los contenedores de los mapas */
   .map-container {
@@ -76,10 +78,14 @@ footer {
   }
   .receta {
     bottom: 2px;
-    background-color: orange;
+    background-color: rgb(3, 2, 1);
     margin-bottom: 2px;
+    color: white;
   }
  .contenedor {
   background-color: brown;
   color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin: 3px;
  }
