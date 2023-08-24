@@ -41,37 +41,37 @@
 
       <p>Direccion</p>
 
-      <label for="calle">Calle</label>
+      <label for="calle">Calle:</label>
       <input type="text" id="calle" name="calle" placeholder="Ingrese su calle aqui" required>
 
-      <label for="numero">Numero</label>
-      <input type="text" id="numero" name="numero" placeholder="Ingrese su numero aqui" required>
+      <label for="numero">Numero:</label>
+      <input type="number" id="numero" name="numero" max="5" placeholder="Ingrese su numero aqui" required>
 
-      <label for="ciudad">Ciudad</label>
+      <label for="ciudad">Ciudad:</label>
       <input type="text" id="ciudad" name="ciudad" placeholder="C.A.B.A" required>
 
-      <label for="codigo-postal">Codigo Postal</label>
-      <input type="text" id="codigo-postal" name="codigo-postal" placeholder="Ingrese su codigo postal" required><br><br>
+      <label for="codigo-postal">Codigo Postal:</label>
+      <input type="number" id="codigo-postal" name="codigo-postal" placeholder="Ingrese su codigo postal" required><br><br>
 
-      <label for="telefono">Telefono</label>
-      <input type="text" id="telefono" name="telefono" placeholder="Ingrese su telefono aqui" required>
+      <label for="telefono">Telefono:</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su telefono aqui" required>
 
-      <label for="fecha-nac">Fecha Nac</label>
+      <label for="fecha-nac">Fecha Nac:</label>
       <input type="date" id="fecha-nac" name="fecha-nac" required>
 
-      <label for="mail">Mail</label>
-      <input type="text" id="mail" name="mail" required>
+      <label for="mail">Mail:</label>
+      <input type="email" id="mail" name="mail" required><br><br>
 
-      <label for="clave">Clave</label>
+      <label for="clave">Clave:</label>
       <input type="password" id="clave" name="clave" required>
 
-      <label for="linktp">Link del TP 3</label>
+      <label for="linktp">Link del TP 3:</label>
       <input type="file" id="linktp" name="linktp" required>
       <br><br><br>
 
       
 
-      Genero radio()<input type="radio" id="hombre" name="genero" value="hombre">
+      Genero: (radio)<input type="radio" id="hombre" name="genero" value="hombre">
       <label for="hombre">Hombre</label>
 
       <input type="radio" id="mujer" name="genero" value="mujer">
@@ -80,7 +80,7 @@
       <input type="radio" id="otro" name="genero" value="otro">
       <label for="otro">Otro</label><br><br>
 
-      Conocimientos Previos (checkbox) <input type="checkbox" id="html" name="html" value="html">
+      Conocimientos Previos: (checkbox) <input type="checkbox" id="html" name="html" value="html">
       <label for="html">HTML</label>
 
       <input type="checkbox" id="css" name="css" value="css">
@@ -107,9 +107,12 @@
       <input type="checkbox" id="django" name="django" value="django">
       <label for="django">Django</label><br><br>
 
+      
+      Comentario:<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+      <br><br>
 
-      <br>
-      <input type="submit" value="Enviar">
+      <input type="submit" name="enviar" id="enviar">
+      <input type="reset" name="reset" id="reset">
 
 
 
