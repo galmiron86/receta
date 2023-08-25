@@ -31,10 +31,10 @@
 
     <form action="formulario" method="post">
 
-      <label for="nombre">Nombre</label>
+      <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="nombre" required>
 
-      <label for="apellido">Apellido</label>
+      <label for="apellido">Apellido:</label>
       <input type="text" id="apellido" name="apellido" required>
 
       <br><br>
@@ -48,7 +48,7 @@
       <input type="number" id="numero" name="numero" placeholder="Ingrese su numero aqui" required>
 
       <label for="ciudad">Ciudad:</label>
-      <input type="text" id="ciudad" name="ciudad" placeholder="C.A.B.A" required>
+      <input type="text" id="ciudad" name="ciudad" value="C.A.B.A" required>
 
       <label for="codigo-postal">Codigo Postal:</label>
       <input type="number" id="codigo-postal" name="codigo-postal" placeholder="Ingrese su codigo postal" required><br><br>
@@ -57,7 +57,7 @@
       <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su telefono aqui" required>
 
       <label for="fecha-nac">Fecha Nac:</label>
-      <input type="date" id="fecha-nac" name="fecha-nac" required>
+      <input type="date" id="fecha-nac" name="fecha-nac" maxlength="8" required>
 
       <label for="mail">Mail:</label>
       <input type="email" id="mail" name="mail" required><br><br>
